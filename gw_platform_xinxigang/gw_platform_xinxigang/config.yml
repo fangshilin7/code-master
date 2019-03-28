@@ -1,0 +1,30 @@
+
+type: gw_platform_xinxigang
+
+gateway: 10000000000000000000000400000006
+
+protocol: xinxigang
+
+
+ip: 192.168.1.132
+
+
+http: 20201
+
+# cms
+cms: http://192.168.1.173:10001/cms
+
+# ops
+ops: http://192.168.1.173:10001/ops
+
+# platform
+platform:
+    vld:
+        url: http://20.2.15.34:55556/share-service/kafka/159-197
+        token: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjaGVuZ3BlbmdnYW9zdSIsInVzZXJJZCI6IjE1OSIsIm5hbWUiOiLmiJDlva3pq5jpgJ8iLCJleHAiOjQwNzA2MjA3OTl9.IUXz7Q4EszTRVpU0QFBDqY9cmBnMLsqOCfHP2ddi87OHRVdAqPqr_67U7gSqRIP1ARu5F3Owi_skpiTZcOi5ZEXw5hT05qWSjwZpoGQbIDUJi0UV_hQrQPxxON_HSUqUwedH-8GY1PoBc9pAQ1AMMtU3RYr_NiGt_6iNqAjRz1A
+    mdi:
+        url: http://20.2.15.34:55556/share-service/kafka/159-177
+        token: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJoaXNlbnNlIiwidXNlcklkIjoiMTAwMDIiLCJuYW1lIjoiSGlzZW5zZSIsImV4cCI6MjQwNDc2NjQzOX0.iwIH_2gR-4SfFKjRUvK1UuZ7rYNwIBOttJvCvy5V3daJJQkZWE5Tb01iTLgl_ClFe8HDr_k6-q7V_KCwA8ZEg_dy4gEiWRLMpVFWOnQ47-Ivu0pOUz0ZEmieGyPRScE1hDgR9F0mCHv4XtKqP9Zpnuq8jv_SFQ1lE1Sivb-Qsps
+    vtd:
+        url: http://20.2.15.28:8084/trafficEventData
+        token: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJoaXNlbnNlIiwidXNlcklkIjoiMTAwMDIiLCJuYW1lIjoiSGlzZW5zZSIsImV4cCI6MjQwNDc2NjQzOX0.iwIH_2gR-4SfFKjRUvK1UuZ7rYNwIBOttJvCvy5V3daJJQkZWE5Tb01iTLgl_ClFe8HDr_k6-q7V_KCwA8ZEg_dy4gEiWRLMpVFWOnQ47-Ivu0pOUz0ZEmieGyPRScE1hDgR9F0mCHv4XtKqP9Zpnuq8jv_SFQ1lE1Sivb-Qsps
