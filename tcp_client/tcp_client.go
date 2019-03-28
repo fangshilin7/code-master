@@ -41,7 +41,5 @@ func main() {
 		time.Sleep(time.Duration(50) * time.Millisecond)
 	}
 
-	for {
-
-	}
+	select {}
 }
