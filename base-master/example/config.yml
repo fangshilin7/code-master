@@ -1,0 +1,64 @@
+#
+# MS服务配置
+#
+
+# ETCD配置
+etcd: http://127.0.0.1:2379
+
+# 服务类型
+type: ms
+
+# 序列号
+sn: XXXXXX---MS-00000001
+
+# 内网
+intranet:
+  # IP（内网）
+  ip: 127.0.0.1
+
+  # HTTP端口
+  http: 13001
+
+  # RTSP端口
+  rtsp: 13002
+
+  # SVP端口
+  svp: 13004
+
+  # TELNET端口
+  telnet: 9061
+
+  # GNSS端口
+  gnss: 13006
+
+# 外网
+extranet:
+  # IP（外网）
+  ip: 127.0.0.1
+
+  # HTTP端口
+  http: 13001
+
+  # RTSP端口
+  rtsp: 13002
+
+  # SVP端口
+  svp: 13004
+
+  # TELNET端口
+  telnet: 9061
+
+  # GNSS端口
+  gnss: 13006
+
+# 状态服务配置
+ops:
+  enable: false  # 是否启用，若为false，则不向中心上报状态
+  url: http://127.0.0.1:12001/ops # 请求路径
+  interval: 120  # 上报周期（秒）
+
+# 服务性能上限，超过性能上限不再响应请求
+limit:
+  CPU: 80 # CPU百分比
+  input: 2000  # 输入流量（Mbps）
+  output: 2000 # 输出流量（Mbps）

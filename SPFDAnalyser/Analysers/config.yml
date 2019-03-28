@@ -1,0 +1,6 @@
+
+device_id_start: 2000
+
+device_count: 4000
+
+service_addr: 192.168.1.196:18758

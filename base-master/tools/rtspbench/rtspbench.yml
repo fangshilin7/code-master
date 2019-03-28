@@ -1,0 +1,22 @@
+# RTSP视频源
+sources:
+  -
+    url: rtsp://192.168.1.6:8554/media?source=cnRzcDovL2FkbWluOjEyMzQ1QDE5Mi4xNjguMS42Mjo1NTQvU3RyZWFtaW5nL0NoYW5uZWxzLzEwMT90cmFuc3BvcnRtb2RlPXVuaWNhc3QmcHJvZmlsZT1Qcm9maWxlXzEwMQ==
+    num: 40
+  -
+    url: rtsp://192.168.1.6:8554/media?source=cnRzcDovL2FkbWluOmFkbWluQDE5Mi4xNjguMS42NTo1NTQvY2FtL3JlYWxtb25pdG9yP2NoYW5uZWw9MSZzdWJ0eXBlPTA=
+    num: 40
+  -
+    url: rtsp://192.168.1.6:8554/media?source=cnRzcDovL2FkbWluOjEyMzQ1QDE5Mi4xNjguMS43ODo1NTQvU3RyZWFtaW5nL0NoYW5uZWxzLzEwMT90cmFuc3BvcnRtb2RlPXVuaWNhc3QmcHJvZmlsZT1Qcm9maWxlXzEwMQ==
+    num: 30
+  -
+    url: rtsp://192.168.1.6:8554/media?source=cnRzcDovL2FkbWluOjEyMzQ1QDE5Mi4xNjguMS43Nzo1NTQvU3RyZWFtaW5nL0NoYW5uZWxzLzEwMT90cmFuc3BvcnRtb2RlPXVuaWNhc3QmcHJvZmlsZT1Qcm9maWxlXzEwMQ==
+    num: 30
+  -
+    url: rtsp://192.168.1.6:8554/media?source=cnRzcDovL2FkbWluOjEyMzQ1QDE5Mi4xNjguMS43Njo1NTQvU3RyZWFtaW5nL0NoYW5uZWxzLzEwMT90cmFuc3BvcnRtb2RlPXVuaWNhc3QmcHJvZmlsZT1Qcm9maWxlXzEwMQ==
+    num: 30
+# 循环周期（秒）
+time: 0
+
+# 最大循环次数（0表示无限周期）
+max: 0
